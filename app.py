@@ -4,7 +4,7 @@ import random
 for i in range(700,710):
     for j in range(0,10):
         d= str(i)
-        text= 'commit number ' + str(j)
+        text= 'commit number ' + str(j+1)
         with open('file.txt','a') as file:
             file.write(d)
         os.system('git add .')
