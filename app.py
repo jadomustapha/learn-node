@@ -8,7 +8,7 @@ for i in range(90,300):
             file.write(d)
         os.system('git add .')
         # os.system('git commit -m "commit' +d + '"')
-        os.system('git commit --date="'+ d +' day ago" -m "done"')
+        os.system('git commit --date="'+ d +' day ago" -m "almost done"')
 os.system('git push')
 
 
