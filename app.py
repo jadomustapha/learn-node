@@ -1,7 +1,7 @@
 import os 
 import random
 
-for i in range(1,30):
+for i in range(31,300):
     for j in range(0,10):
         d= str(i)
         with open('file.txt','a') as file:
