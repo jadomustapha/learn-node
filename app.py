@@ -7,5 +7,9 @@ for i in range(1,10):
         with open('file.txt','a') as file:
             file.write(d)
         os.system('git add .')
-        os.system('git commit -m "commit' +d + '"')
+    os.system('git commit -m "commit' +d + '"')
 os.system('git push')
+
+
+# for i in range(1,10):print('welcome Adal')
+    
