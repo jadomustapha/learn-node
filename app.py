@@ -3,11 +3,12 @@ import random
 
 for i in range(1,10):
     for j in range(0,10):
-        d= str(i) + 'the best way is this '
+        d= str(i)
         with open('file.txt','a') as file:
             file.write(d)
         os.system('git add .')
-    os.system('git commit -m "commit' +d + '"')
+        # os.system('git commit -m "commit' +d + '"')
+        os.system('git commit --date="'+ d +' day ago" -m "Your commit message"')
 os.system('git push')
 
 
